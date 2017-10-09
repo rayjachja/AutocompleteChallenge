@@ -1,5 +1,6 @@
 /* Candidate class, object is either empty or fill. If it is fill it contains information 
  * on the word and confidence.  The boolean end distinguishes whether or not the Candidate is filled.
+ * Data object for storing information on candidate.
  */
 public class Candidate{
 	/* Constant for types of letters 

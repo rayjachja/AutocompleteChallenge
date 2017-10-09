@@ -1,5 +1,6 @@
 /* Prefix tree holds information on the different candidates along with arranging candidates based on 
  * prefixes.
+ * Will be used to store words, and retrieve candidates.
  */
 import java.util.ArrayList;
 import java.util.List;
@@ -51,6 +52,7 @@ public class Prefix_Tree {
 			if(node.word == "") {
 				node.word = word;
 				node.end = true;
+				size = size + 1;
 			}
 			node.confidence += 1;
 		}

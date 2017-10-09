@@ -1,10 +1,11 @@
+/* Test for Prefix tree.
+ * 
+ */
+
 import static org.junit.Assert.*;
 
 import java.util.List;
 
-/* Test for Prefix tree.
- * 
- */
 import org.junit.Test;
 
 public class Prefix_TreeTest {

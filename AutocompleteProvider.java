@@ -14,6 +14,9 @@ public class AutocompleteProvider {
 		return storage.prefix_lookup(fragment);
 	}
 	
+	/*Training the tree by processing the passage into word tokens
+	 *  word tokens will be a to z, in lower case, split by spaces
+	 */
 	public void train(String passage) {
 		String[] words;
 		String processed = passage.replaceAll("[^a-zA-Z ]", "");

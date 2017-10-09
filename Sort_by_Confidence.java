@@ -1,5 +1,6 @@
 /* Comparator for Candidate, comparator is reversed so that the higher confidence is first
- * If equal then compare word first.
+ * If equal then compare words.
+ * For sorting the list of candidates at the end by confidence.
  */
 
 import java.util.Comparator;
